@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="10"  height="50" width="400">
+        <tr>
+            <th colspan="2" align="center">Student Schedule</th>
+             
+        </tr>
+        <tr>
+            <th>Time</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>10:15AM - 11:15 AM</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>11:30 AM - 12:30 PM</td>
+            <td>History</td>
+        </tr>
+        <tr> 
+            <th colspan="2" align="center">Break Time</th>
+        </tr>
+        <tr>
+           <td colspan="2" align="center">12:30 PM - 1:00 PM</td>
+        </tr>
+    </table><br><br>
+<table border="2" height="50"  width="200" cellpadding="10" cellspacing="1" >
+ <tr>
+    <th colspan="3" align="center">Product List</th>
+ </tr>
+ <tr>
+    <th>Item</th>
+    <th>Details</th>
+    <th>Price</th>
+ </tr>
+ <tr>
+    <td align="center">Laptop</td>
+    <td>
+        <table border="2" height="50" width="200" cellpadding="5" cellspacing="1">
+            <tr><td>Brand: Dell</td></tr>
+            <tr><td><b>RAM: 8GB</b</td></tr>
+        </table>
+    </td><td>$800</td>
+ </tr>
+ <tr>
+    <td align="center">Headphones</td>
+    <td>
+        <table border="2" height="50" width="200" cellspacing="1" cellpadding="5">
+            <tr><td><b>Type:</b> Wireless</td></tr>
+            <tr><td><b>Color:</b>Black</td></tr>
+        </table>
+    </td><td>$50</td>
+ </tr>
+</table><br><br>
+<table border="2" cellpadding="10" height="100" width="300">
+    <tr>
+        <th colspan="2" align="center">FAQ Section</th>
+        
+    </tr>
+    <tr>
+        <th>Question</th>
+        <th>Answer</th>
+    </tr>
+    <tr>
+        <td>What is HTML?</td>
+        <td>HTML stands for Hyper Text Markup Language.</td>
+    </tr>
+    <tr>
+        <td>how to center text?</td>
+        <td>Use the "align" attribute in a table to center text.</td>
+    </tr>
+</table><br><br>
+<table border="2">
+    <tr>
+        <th colspan="3" align="center">Pricing Table</th>
+    </tr>
+    <tr>
+        <th>Basic Plan</th>
+        <th>Standard Plan</th>
+        <th>Premium Plan</th>
+    </tr>
+    <tr>
+        <td>
+            <table border="2">
+                <tr><td><b>Storage:</b>10GB</td></tr>
+                 <tr><td><b>Support:</b>Email</td></tr>
+            </table>
+        </td>
+        <td>
+            <table border="2">
+                <tr><td><b>Storage:</b>50GB</td></tr>
+                 <tr><td><b>Support:</b>Email+chat</td></tr>
+            </table>
+        </td>
+        <td>
+           <table border="2">
+                <tr><td><b>Storage:</b>10GB</td></tr>
+                 <tr><td><b>Support:</b>24/7 Support</td></tr>
+            </table> 
+        </td>
+    </tr>
+    <tr>
+        <td>$10/month</td>
+        <td>$25/month</td>
+        <td>$50/month</td>
+    </tr>
+</table><br>
+<table border="2" height="10" width="300">
+    <tr>
+        <th colspan="2" align="center">Employee Information</th>
+    </tr>
+    <tr>
+        <td align="center">Name: John Doe</td>
+        <td align="center">Manager</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <table border="2" align="center" height="5" width="300" cellpadding="5">
+                <tr><th>Contact Info</th></tr>
+                <tr><td align="center"><b>Email:</b>john@example.com</td></tr>
+                <tr><td align="center"><b>Phone:</b>123-456-7890</td></tr>
+            </table>
+        </td>
+    </tr>
+</table><br><hr><hr>
+<table border="2" bgcolor="lightblue">
+    <thead><tr bgcolor="blue">
+        <th colspan="3" align="center">Course Overview</th>
+    </tr>
+    <tr bgcolor="blue">
+        <th>Module</th>
+        <th>Topics Coverd</th>
+        <th>Duration</th>
+    </tr></thead><tbody>
+    <tr>
+        <td>Module 1:Introduction</td>
+        <td>HTML Basics</td>
+        <td>1 Week</td>
+    </tr>
+    <tr>
+        <td>Module 2: Intermediate</td>
+        <td>CSS & Styling</td>
+        <td>2 Weeks</td>
+    </tr>
+    <tr>
+        <td>Module 3: Advanced</td>
+        <td>Javascript & DOM</td>
+        <td>3 Weeks</td>
+    </tr></tbody>
+    <tfoot><tr><td colspan="3"><ul>
+        <li>HTML: HyperText Markup Language</li>
+        <li>CSS: Cascading Style Sheets</li>
+        <li>DOM: Document Object Model</li>
+    </ul></td></tr></tfoot></table><br><br>
+<table border="2" bgcolor="pink">
+    <thead bgcolor="pink"><tr>
+        <th colspan="3" align="center">Product Comparison</th>
+    </tr>
+    <tr>
+    <th>Feature</th>
+    <th>Product A</th>
+    <th>Product B</th>
+    </tr></thead><tbody bgcolor="pink">
+    <tr>
+        <td>Price:</td>
+        <td>$299</td>
+        <td>$399</td>
+    </tr>
+    <tr>
+        <td>Storage:</td>
+        <td>128GB</td>
+        <td>256GB</td>
+    </tr>
+    <tr>
+        <td>Battery Life:</td>
+        <td>10 Hours</td>
+        <td>15 Hours</td>
+    </tr></tbody>
+    <tfoot><tr>
+        <td colspan="3"><ul>
+            <li><b>Price:</b>Cost of the Product</li>
+            <li><b>Storage:</b> Internal memory capacity</li>
+            <li><b>Battery Life:</b> Duration the battery lasts.</li>
+        </ul></td>
+    </tr>
+</table><br>
+<table border="2">
+    <thead bgcolor="grey"><tr>
+        <th colspan="3" align="center">Team Memebers</th>
+    </tr>
+    <tr>
+    <th>Name</th>
+    <th>Role</th>
+    </tr></thead><tbody bgcolor="lightgrey">
+    <tr>
+        <td>Alice</td>
+        <td>Lead Developer</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>UI/UX Designer</td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td>Project Manager</td>
+    </tr></tbody>
+    <tfoot bgcolor="lightgrey"><tr>
+        <td colspan="3"><ul>
+            <li><b>Lead Developer:</b>Responsible for coding and architecture.</li>
+            <li><b>UI/UX Designer:</b> Focuses on user interface and experience.</li>
+            <li><b>Project Manager:</b> Oversees the project timeline.</li>
+        </ul></td>
+    </tr>
+</table><br>
+<table border="2">
+    <thead bgcolor="green"><tr>
+        <th colspan="3" align="center">Travel Itinerary</th>
+    </tr>
+    <tr>
+    <th>Day</th>
+    <th>Destination</th>
+    <th>Activity</th>
+    </tr></thead><tbody bgcolor="lightgreen">
+    <tr>
+        <td>Day 1:</td>
+        <td colspan="2">Eiffel Tower Tour</td>
+    </tr>
+    <tr>
+        <td>Day 2:</td>
+        <td colspan="2">Visit the Colosseum</td>
+        
+    </tr>
+    <tr>
+        <td>Day 3:</td>
+        <td colspan="2">Canal Boat Ride</td>
+    </tr></tbody>
+    <tfoot bgcolor="lightgreen"><tr>
+        <td colspan="3"><ul>
+            <li><b>Eiffel Tower:</b>Famous Landmark in Paris</li>
+            <li><b>Colosseum:</b> Ancient amphimber</li>
+            <li><b>Canal Bank Ride:</b> Scenic tour through venice canals.</li>
+        </ul></td>
+    </tr>
+</table><br>
+<table border="2">
+    <thead bgcolor="yellow"><tr>
+        <th colspan="3" align="center">Nutrition Facts</th>
+    </tr>
+    <tr>
+    <th>Nutrient</th>
+    <th>Amount</th>
+    </tr></thead><tbody bgcolor="lightyellow">
+    <tr>
+        <td>Calories</td>
+        <td>200 kcal</td>
+       
+    </tr>
+    <tr>
+        <td>Total Fat</td>
+        <td>8g</td>
+    
+    </tr>
+    <tr>
+        <td>Carbohydrates</td>
+        <td>25g</td>
+    
+    </tr>
+<tr>
+    <td>Protien</td>
+    <td>5g</td>
+</tr></tbody>
+    <tfoot bgcolor="lightyellow"><tr>
+        <td colspan="3"><ul>
+            <li><b>Calories:</b>Energy provided by the food.</li>
+            <li><b>Total Fat:</b>Fats and oil content.</li>
+            <li><b>Battery Life:</b>Sugars and Starches.</li>
+            <li><b>Protien:</b>Essential for muscle building.</li>
+        </ul></td>
+    </tr>
+</table><br><hr><hr>
+<table border="2" width="300">
+    <tr><th bgcolor="seablue" align="center">To Do List</td></tr>
+    <tr><td>
+        <ul>
+            <li>Buy Groceries</li>
+            <li>Finish Homework</li>
+            <li>Call the Doctor</li>
+            <li>Clean the House</li>
+        </ul>
+    </td></tr>
+</table>
+<table border="2" width="300">
+    <tr>
+        <th colspan="2" bgcolor="pink">Course Schedule</th>
+    </tr>
+    <tr bgcolor="pink">
+        <th>Day</th>
+        <th>Subjects</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>
+            <ul>
+                <li>Math</li>
+                <li>English</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>
+            <ul>
+                <li>Science</li>
+                <li>History</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<table border="2">
+<tr>
+    <th colspan="2" align="center" bgcolor="yellow">Team Members & Roles</th>
+</tr>
+<tr>
+    <td>
+        <table border="2">
+            <tr><th bgcolor="lightyellow">Development</th></tr>
+            <tr><td><ul>
+                <li>Alice</li>
+                <li>Bob-Tester</li>
+            </ul></td></tr>
+        </table>
+    </td>
+    <td>
+        <table border="2">
+            <tr><th bgcolor="lightyellow">Design Team</th></tr>
+            <tr><td><ul>
+                <li>Sarah-Designer</li>
+                <li>john-UI/UX</li>
+            </ul></td></tr>
+        </table>
+    </td>
+</tr>
+</table><br>
+<table border="2">
+    <tr>
+        <th colspan="2" bgcolor="green"align="center">Travel Packing List</th>
+    </tr>
+    <tr>
+       <th align="center" bgcolor="lightgreen">Clothing</th>
+       <th align="center" bgcolor="lightgreen">Essentials</th>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>T-shirts</li>
+            <li>Jeans</li>
+            <li>Jacket</li>
+        </ul></td>
+        <td>
+            <ul>
+                <li>Passport</li>
+                <li>Toothbrush</li>
+                <li>Charges</li>
+            </ul>
+        </td>
+    </tr>
+</table><br>
+<table border="2">
+    <tr>
+        <th colspan="2" align="center">Monthly Budget</th>
+    </tr>
+    <tr>
+        <th align="center">Income</th>
+        <th align="center">Expenses</th>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>Salary</li>
+            <li>Freelance Work</li>
+        </ul></td>
+        <td><ul>
+            <li>Rent</li>
+            <li>Groceries</li>
+            <li>Utilities</li>
+        </ul></td>
+    </tr>
+</table><br><hr><hr>
+<table border="2">
+    <caption><b><u>Task 1: Project Overview</u></b></caption>
+    <tr>
+        <th>Project Phase</th>
+        <th>Key Steps</th>
+    </tr>
+    <tr>
+        <td>1. planning</td>
+        <td>Define Goals</td>
+    </tr>
+    <tr>
+        <td>2. Development</td>
+        <td>Build Features</td>
+    </tr>
+    <tr>
+        <td>3.Testing</td>
+        <td>Conduct Testing</td>
+    </tr>
+</table><br><br> 
+<table border="2" >
+    <caption><b><u>Task 2: Daily Schedule</u></b></caption>
+    <tr>
+        <th>Time</th>
+        <th>Activity</th>
+    </tr>
+    <tr>
+        <td>8:00AM</td>
+        <td>1.Check Emails</td>
+    </tr>
+    <tr>
+        <td>10:00AM</td>
+        <td>2.Team Meeting</td>
+    </tr>
+    <tr>
+        <td>1:00PM</td>
+        <td>3.Work on Tasks</td>
+    </tr>
+</table><br>
+<table border="2" height="50" width="200">
+    <caption><b><u>Task 3: Shopping List with Categories</u></b></caption>
+    <tr>
+        <th align="center">Shopping Categories</th>
+    </tr>
+    <tr>
+        <td align="left"><b> Fruits</b></td>
+    </tr>
+    <tr height="30" width="200">
+        <td><ol>
+            <li>Apples</li>
+            <li>Bananas</li>
+        </ol></td>
+    </tr>
+    <tr>
+        <td align="left"><b>Snacks</b></td>
+    </tr>
+    <tr>
+        <td><ol>
+            <li>Chips</li>
+            <li>Cookies</li>
+        </ol></td>
+    </tr>
+</table><br><br>
+<table border="2" cellpadding="5">
+    <caption><b><u>Task 4: Employee Details</u></b></caption>
+    <tr>
+        <th>Attribute</th>
+        <th>Information</th>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td>John Smith</td>
+    </tr>
+    <tr>
+        <td>Skills:</td>
+        <td align="left" valign="center"><ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol></td>
+    </tr>
+</table><br><br>
+<table border="2" cellpadding="15" height="10" width="200">
+    <caption><b><u>Task 5: Tech Term Definitions</u></b></caption><tr>
+        <td>
+            <table border="2">
+                <tr><th>HTML:</th></tr>
+                <tr><td>HyperText Markup Language.</td></tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table border="2">
+                <tr><th>CSS:</th></tr>
+                <tr><td>Cascading Style Sheets</td></tr>
+            </table>
+        </td>
+    </tr>
+</table><br><br><hr><hr>
+<table border="2">
+    <tr>
+        <th colspan="3" align="center">Company Department Overview</th>
+    </tr>
+    <tr>
+        <th>Department</th>
+        <th>Team Members</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td><b>Development</b></td>
+        <td>
+            <ol>
+                <li>John</li>
+                <li>Maria</li>
+                <li>Alex</li>
+            </ol>
+        </td>
+        <td>
+            <ul>
+                <li>Focus:Web Application Development</li>
+                <li>Tools:HTML,CSS,Javascript,Django</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Design</b></td>
+        <td><ul>
+            <li>Sophie</li>
+            <li>David</li>
+        </ul></td>
+        <td>
+            <table border="2" height="10" width="300">
+                <tr>
+                    <th>Task</th>
+                    <th>Completed</th>
+                </tr>
+                <tr>
+                    <td>UI Mockups</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>UX Testing</td>
+                    <td>In Progress</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Marketing</b></td>
+        <td><ul>
+            <li>Emma</li>
+            <li>Chris</li>
+        </ul></td>
+        <td><ul>
+            <li>Campaigns:
+                <ul type="disc"><li>Social Media,Email Outreach</li></ul>
+            </li>
+        </ul>
+            <ul>
+            <li>Goal:
+                <ul type="disc"><li>Increase brand visibility</li></ul>
+            </li>
+        </ul>
+    </td>
+    </tr>
+</table><hr><hr>
+<table border="2">
+    <tr>
+        <th colspan="4" align="center">Project Milestone Tracker</th>
+    </tr>
+    <tr>
+        <th>Phase</th>
+        <th>Task</th>
+        <th>Team Members</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td rowspan="2" align="center">Phase 1</td>
+        <td>Research & Planning</td>
+        <td>Alice,Bob</td>
+        <td>Completed</td>
+    </tr>
+    <tr>
+        <td>Initial Design</td>
+        <td>Charlie</td>
+        <td>In Progress</td>
+    </tr>
+    <tr>
+        <th>Phase 2</th>
+        <td colspan="2">
+            <table border="2"> 
+                <tr>
+                    <th align="center">Development Tasks</th>
+                </tr>
+                <tr>
+                    <td>-Frontend coding</td>
+                    <td> Maria,John</td>
+                </tr>
+                <tr>
+                    <td>-Backend Integration</td>
+                    <td>Alex</td>
+                </tr>
+            </table>
+        </td><td>Ongoing</td>
+    </tr>
+    <tr>
+        <th>Phase 3</th>
+        <td>Testing & QA</td>
+        <td>
+            <table border="2">
+                <tr><td>Testing Team,IT Support</td></tr>
+                <tr><td><ul><li>Bug Fixing</li></ul></td></tr>
+                <tr><td><ul><li>Final Testing</li></ul></td></tr>
+            </table>
+        </td>
+        <td>Pending Scheduled</td>
+    </tr>
+    <tr>
+        <td colspan="4" align="center"><b>Launch & Review</b></td>
+    </tr>
+    <tr>
+        <td colspan="4" align="center">Entire Team&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upcoming</td>
+    </tr>
+</table>
+
+</body>
+</html>
